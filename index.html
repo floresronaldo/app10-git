@@ -1,0 +1,1141 @@
+﻿<!doctype html>
+<html>
+<head>
+!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <meta charset="utf-8">
+ <title>Tutorial de DSAUPOO</title>
+ 
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema10.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!-- <script="js/acciones.js"></script>-->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head><body onLoad="MM_preloadImages('imagenes/imagen9.jpg','imagenes/batalla11.jpg','../tercer parcial/aplicaciones/app10/imagenes/3.jpg','../tercer parcial/aplicaciones/app10/imagenes/4.jpg','../tercer parcial/aplicaciones/app10/imagenes/7.jpg','../tercer parcial/aplicaciones/app10/imagenes/8.jpg','../tercer parcial/aplicaciones/app10/imagenes/16.jpg','../tercer parcial/aplicaciones/app10/imagenes/11.jpg')"> 
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Tutorial de DSAUPOO:</h1>
+  </div>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>primer visor.</h1>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_0"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_1"/></li>
+		<li><img src="data1/images/7.jpg" alt="7" title="7" id="wows1_2"/></li>
+		<li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_3"/></li>
+		<li><img src="data1/images/9.jpg" alt="9" title="9" id="wows1_4"/></li>
+		<li><img src="data1/images/11.jpg" alt="11" title="11" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/12.jpg" alt="cssslider" title="12" id="wows1_6"/></a></li>
+		<li><img src="data1/images/13.jpg" alt="13" title="13" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>1</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>2</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>3</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>4</span></a>
+		<a href="#" title="9"><span><img src="data1/tooltips/9.jpg" alt="9"/>5</span></a>
+		<a href="#" title="11"><span><img src="data1/tooltips/11.jpg" alt="11"/>6</span></a>
+		<a href="#" title="12"><span><img src="data1/tooltips/12.jpg" alt="12"/>7</span></a>
+		<a href="#" title="13"><span><img src="data1/tooltips/13.jpg" alt="13"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>primera imagen de doble sustitución.</h1>
+   <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','../tercer parcial/aplicaciones/app10/imagenes/3.jpg',1)"><img src="../tercer parcial/aplicaciones/app10/imagenes/1.jpg" width="539" height="266" id="Image29"></a> </div></div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>segunda imagen de doble sustitución.</h1>
+   <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','../tercer parcial/aplicaciones/app10/imagenes/4.jpg',1)"><img src="../tercer parcial/aplicaciones/app10/imagenes/2.jpg" width="259" height="194" id="Image30"></a> </div></div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>tercera imagen de doble sustitución.</h1>
+   <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','../tercer parcial/aplicaciones/app10/imagenes/7.jpg',1)"><img src="../tercer parcial/aplicaciones/app10/imagenes/5.jpg" width="275" height="183" id="Image31"></a> </div></div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>cuarta imagen de doble sustitución.</h1>
+   <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','../tercer parcial/aplicaciones/app10/imagenes/8.jpg',1)"><img src="../tercer parcial/aplicaciones/app10/imagenes/6.jpg" width="160" height="120" id="Image32"></a> </div></div></div>
+  <div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Análisis y diseño de Sistemas.</h2>
+   </a></li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Procesos para la manipulación de Bases de datos Enlazada.</h2>
+       </a>
+   </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Instrucciones basicas de SQL</h2>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Altas y Bajas</h2>
+ </a>
+  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>El funcionamiento del sistema de información</h2>
+ </a>
+ <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Manual Técnico y de Usuario.</h2>
+ </a>
+  <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Instalación del Sistema de Información</h2>
+ </a>
+  <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Quinta y Cuarta imagen de doble sustitución.</h2>
+ </a>
+  <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Segundo visor.</h2>
+ </a>
+ <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Enlaces</h2>
+ </a>
+</li>
+ </ul>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicación 10</h4>
+<h4>Ronaldo Vicuña Flores</h4>
+</div></div></div></div></div></div></div></div></div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>La vida de un sistema</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p> 1.1.Ciclo de la vida de un sistema:
+1.1.1.Análisis:
+Averiguar qué es exactamente lo que tiene que hacer el sistema. La etapa de análisis en el ciclo de vida del software corresponde al proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/17.jpg" width="224" height="171"> <br>
+1.1.2.Diseño:
+Se han de estudiar posibles alternativas de implementación para el sistema de información que hemos de construir y se ha de decidir la estructura general que tendrá el sistema (su diseño arquitectónico). El diseño de un sistema es complejo y el proceso de diseño ha de realizarse de forma iterativa.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/3.jpg" width="282" height="179"> <br>1.1.3.Codificación:<br>
+Las codificaciones de archivos, también denominadas codificaciones de caracteres, especifican cómo se representan los caracteres durante el procesamiento de texto. Una codificación puede ser preferible sobre otra por lo que se refiere a los caracteres del lenguaje que puede o no controlar, aunque normalmente se prefiere Unicode. Cuando se leen o escriben archivos, la correspondencia incorrecta de las codificaciones de archivo puede producir excepciones o resultados incorrectos. Tipos de codificaciones:
+Unicode es la codificación preferida al trabajar con archivos. Unicode es un estándar mundial de codificación de caracteres que usa valores de código de 16 bits para representar todos los caracteres que se usan en la informática moderna, e incluye símbolos técnicos y caracteres especiales que se usan en publicaciones. Los estándares de codificación de caracteres anteriores constaban de juegos de caracteres tradicionales, como el juego de caracteres ANSI de Windows que usa valores de código de 8 bits, o combinaciones de valores de 8 bits, para representar los caracteres que se usan en un idioma o región geográfica específicos.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/5.jpg" width="275" height="183"><br> 1.1.4.Elaboración de Manuales:<br>
+1.1.4.1.Elaboración de Manual técnico:<br>
+MANUAL TÉCNICO Este documento contiene toda la información sobre los recursos utilizados por el proyecto, llevan una descripción muy bien detallada sobre las características físicas y técnicas de cada elemento. Por ejemplo: características de procesadores, velocidad, dimensiones del equipo, garantías, soporte, proveedores y equipo adicional.<br>
+Su extensión depende de la cantidad de recursos y equipo utilizado y generalmente se presenta en forma de fichas técnicas en donde se describe en cada una las características de cada recurso.<br>
+CONSIDERACIONES GENERALES PARA LA DOCUMENTACIÓN DE EL DESARROLLO DE APLICACIONES INFORMÁTICAS:<br>
+1. Toda documentación que se genere para un proyecto específico, que haya sido revisada y aprobada, debe poseer lo siguiente:<br>
+A) Identificación del documento<br>
+Este documento debe incorporar la siguiente información:<br>
+• Logotipo de la organización.<br>
+• Nombre oficial de la organización.<br>
+• Denominación y extensión. De corresponder a una unidad en particular debe anotarse el nombre de la misma.<br>
+• Lugar y fecha de elaboración.<br>
+• Número de revisión (en su caso).<br>
+• Unidades responsables de su elaboración, revisión y/o autorización.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/21.gif" width="320" height="267"> <br> Clave de la forma. En primer término, las siglas de la organización, en segundo lugar las siglas de la unidad administrativa donde se utiliza la forma y, por último, el número de la forma. Entre las siglas y el número debe colocarse un guion o diagonal. (En su caso).<br>
+B) Estructura del documento:<br>
+2. Por cada documento final deberá entregarse copias al personal involucrado en el proyecto.<br>
+3. Una vez concluido el desarrollo de un sistema, considerando para esto los posibles cambios que se efectúen durante la etapa de garantía de que lo cubre (si así fuera el caso), el usuario final del sistema debe recibir una versión actualizada final del documento manual técnico.<br>
+Estructura del documento MANUAL TÉCNICO<br>
+1. Índice:<br>
+Relación de los capítulos y páginas correspondientes que forman parte del documento.<br>
+2. Introducció:<br>
+Se debe presentar una breve descripción del sistema desarrollado, que contemple el ámbito abarcado, cuál es su función principal y un detalle de las funciones macros o partes que lo componen. Puede incluir un mensaje de la máxima autoridad de las áreas comprendidas en el manual.<br>
+2.1. Objetivo general del sistema:<br>
+Se debe de describir el objetivo general del sistema.<br>
+2.2. Objetivos específicos:<br>
+Se deben describir brevemente los objetivos específicos que se cumplieron con el desarrollo del sistema.<br>
+3. Contenido técnico:<br>
+3.1. Definición de reglas del negocio implementadas en el sistema desarrollado.<br>
+3.2. Diagramas de flujo de datos, junto con su respectivo diccionario de datos.<br>
+3.3. Controles de auditoria implementados en el sistema.<br>
+3.4. Descripción de campos requeridos por pantalla con presentación de pantallas.<br>
+3.5. Diagrama de navegación del sistema.<br>
+3.6. Requerimientos de interfase con otros sistemas.<br>
+3.7. Modelo lógico de datos, diagrama entidad-relación.<br>
+3.8. Modelo de datos físico, junto con su respectivo diccionario de datos.<br>
+3.9. Matriz de procesos versus organización.<br>
+3.10. Matriz de programas versus entidades.<br>
+3.11. Plataforma de usuario. Aquí se describen los requerimientos mínimos que se deben tener tanto de hardware como de software para que el sistema se pueda instalar y ejecutar correctamente (en caso de que se considere necesario).<br>
+3.12. Áreas de aplicación y/o alcance de los procedimientos.<br>
+Esfera de acción que cubren los procedimientos 4. Responsables.<br>
+Para iniciar los trabajos que conducen a la integración de un manual, es indispensable prever que no queda diluida la responsabilidad de la conducción de las acciones en diversas personas, sino que debe designarse a un coordinador, auxiliado por un equipo técnico, al que se le debe encomendar la conducción del proyecto en sus fases de diseño, implantación y actualización. De esta manera se logra homogeneidad en el contenido y presentación de la información. Por lo que respecta a las características del equipo técnico, es conveniente que sea personal con un buen manejo de las relaciones humanas y que conozca a la organización en lo que concierne a sus objetivos, estructura, funciones y personal. Para este tipo de trabajo, una organización puede nombrar a la persona que tenga los conocimientos y la experiencia necesarios para llevarlo a cabo. Por la naturaleza de sus funciones puede encargarlo al titular del área específica. Asimismo, puede contratar los servicios de consultores externos.<br>
+4.1. Mapa de navegación. Muestra de forma gráfica la interconexión entre cada una de las pantallas del sistema, lo que serviría para saber cómo llegar a determinada parte de la aplicación. En este se muestran los menús, submenús y pantallas a las que nos lleva cada uno de ellos.<br>
+4.2. Descripción gráfica del mapa de navegación. En el anterior aparece de forma de diagrama de flujo y en esta sección deberá aparecer ya con las respectivas pantallas.<br>
+4.3. Describe paso a paso los procesos, así como pantallas, botones, cuadros de texto, etc., pero también se muestra el código de cada rutina, pantalla, botón, etc. es decir, se muestra lo que hay detrás de la interfaz del usuario.<br>
+Logotipo de la organización.<br>
+· Nombre oficial de la organización.<br>
+· Denominación y extensión. De corresponder a una unidad en particular debe anotarse el nombre de la misma.<br>
+· Lugar y fecha de elaboración.<br>
+· Número de revisión (en su caso).<br>
+· Unidades responsables de su elaboración, revisión y/o autorización.<br>
+· Clave de la forma. En primer término, las siglas de la organización, en segundo lugar las siglas de la unidad administrativa donde se utiliza la forma y, por último, el número de la forma. Entre las siglas y el número debe colocarse un guion o diagonal.<br>
+B) ÍNDICE O CONTENIDO:<br>
+Relación de los capítulos y páginas correspondientes que forman parte del documento.<br>
+C) PRÒLOGO Y/O INTRODUCCIÓN:<br>
+Exposición sobre el documento, su contenido, objeto, áreas de aplicación e importancia de su revisión y actualización. Puede incluir un mensaje de la máxima autoridad de las áreas comprendidas en el manual.<br>
+D) OBJETIVOS DE LOS PROCEDIMIENTOS:<br>
+Explicación del propósito que se pretende cumplir con los procedimientos.<br>
+Los objetivos son uniformar y controlar el cumplimiento de las rutinas de trabajo y evitar su alteración arbitraria; simplificar la responsabilidad por fallas o errores; facilitar las labores de auditoria; facilitar las labores de auditoria, la evaluación del control interno y su vigilancia; que tanto los empleados como sus jefes conozcan si el trabajo se está realizando adecuadamente; reducir los costos al aumentar la eficiencia general, además de otras ventajas adicionales.<br>
+E) AREAS DE APLICACIÓN Y/O ALCANCE DE LOS PROCEDIMIENTOS:<br>
+Esfera de acción que cubren los procedimientos.<br>
+Dentro de la administración pública federal los procedimientos han sido clasificados, atendiendo al ámbito de aplicación y a sus alcances, en: procedimientos macro administrativos y procedimientos meso administrativos o sectoriales.<br>
+F) RESPONSABLES:<br>
+Unidades administrativas y/o puestos que intervienen en los procedimientos en cualquiera de sus fases G) NORMAS DE OPERACIÓN:<br>
+En esta sección se incluyen los criterios o lineamientos generales de acción que se determinan en forma explícita para facilitar la cobertura de responsabilidad de las distintas instancias que participaban en los procedimientos.<br>
+Además deberán contemplarse todas las normas de operación que precisan las situaciones alterativas que pudiesen presentarse en la operación de los procedimientos. A continuación se mencionan algunos lineamientos que deben considerarse en su planteamiento:<br>
+· Se definirán perfectamente las políticas y/o normas que circunscriben el marco general de actuación del personal, a efecto de que esté no incurra en fallas.<br>
+· Los lineamientos se elaboran clara y concisamente, a fin de que sean comprendidos incluso por personas no familiarizadas con los aspectos administrativos o con el procedimiento mismo.
+· Deberán ser lo suficientemente explícitas para evitar la continua consulta a los niveles jerárquicos superiores.<br>
+H) CONCEPTO (S):<br>
+Palabras o términos de carácter técnico que se emplean en el procedimiento, las cuales, por su significado o grado de especialización requieren de mayor información o ampliación de su significado, para hacer más accesible al usuario la consulta del manual.<br>
+I) PROCEDIMIENTO:<br>
+(descripción de las operaciones). Presentación por escrito, en forma narrativa y secuencial, de cada una de las operaciones que se realizan en un procedimiento, explicando en qué consisten, cuándo, cómo, dónde, con qué, y cuánto tiempo se hacen, señalando los responsables de llevarlas a cabo. Cuando la descripción del procedimiento es general, y por lo mismo comprende varias áreas, debe anotarse la unidad administrativa que tiene a su cargo cada operación. Si se trata de una descripción detallada dentro de una unidad administrativa, tiene que indicarse el puesto responsable de cada operación. Es conveniente codificar las operaciones para simplificar su comprensión e identificación, aun en los casos de varias opciones en una misma operación.<br>
+J) FORMULARIO DE IMPRESOS:<br>
+Formas impresas que se utilizan en un procedimiento, las cuales se intercalan dentro del mismo o se adjuntan como apéndices. En la descripción de las operaciones que impliquen su uso, debe hacerse referencia específica de éstas, empleando para ello números indicadores que permitan asociarlas en forma concreta. También se pueden adicionar instructivos para su llenado.<br>
+K) DIAGRAMAS DE FLUJO:<br>
+Representación gráfica de la sucesión en que se realizan las operaciones de un procedimiento y/o el recorrido de formas o materiales, en donde se muestran las unidades administrativas (procedimiento general), o los puestos que intervienen (procedimiento detallado), en cada operación descrita. Además, suelen hacer mención del equipo o recursos utilizados en cada caso. Los diagramas representados en forma sencilla y accesible en el manual, brinda una descripción clara de las operaciones, lo que facilita su comprensión. Para este efecto, es aconsejable el empleo de símbolos y/o gráficos simplificados.<br>
+L) GLOSARIO DE TÉRMINOS:<br>
+Lista de conceptos de carácter técnico relacionados con el contenido y técnicas de elaboración de los manuales de procedimientos, que sirven de apoyo para su uso o consulta. Procedimiento general para la elaboración de manuales administrativos.<br>
+DISEÑO DEL PROYECTO:<br>
+La tarea de preparar manuales administrativos requiere de mucha precisión, toda vez que los datos tienen que asentarse con la mayor exactitud posible para no generar confusión en la interpretación de su contenido por parte de quien los consulta. Es por ello que se debe poner mucha atención en todas y cada una de sus etapas de integración, delineando un proyecto en el que se consiguen todos los requerimientos, fases y procedimientos que fundamentan la ejecución del trabajo.<br>
+A) RESPONSABLES:<br>
+Para iniciar los trabajos que conducen a la integración de un manual, es indispensable prever que no queda diluida la responsabilidad de la conducción de las acciones en diversas personas, sino que debe designarse a un coordinador, auxiliado por un equipo técnico, al que se le debe encomendar la conducción del proyecto en sus fases de diseño, implantación y actualización. De esta manera se logra homogeneidad en el contenido y presentación de la información.<br>
+Por lo que respecta a las características del equipo técnico, es conveniente que sea personal con un buen manejo de las relaciones humanas y que conozca a la organización en lo que concierne a sus objetivos, estructura, funciones y personal. Para este tipo de trabajo, una organización puede nombrar a la persona que tenga los conocimientos y la experiencia necesarios para llevarlo a cabo. Por la naturaleza de sus funciones puede encargarlo al titular de la unidad de mejoramiento administrativo (en caso de contar con este mecanismo). Asimismo, puede contratar los servicios de consultores externos.<br>
+B) DELIMITACIÓN DEL UNIVERSO DE ESTUDIO:<br>
+Los responsables de efectuar los manuales administrativos de una organización tienen que definir y delimitar su universo de trabajo para estar en posibilidad de actuar en él; para ello, deben realizar.<br>
+ESTUDIO PRELIMINAR:<br>
+Este paso es indispensable para conocer en forma global las funciones y actividades que se realizan en el área o áreas donde se va a actuar. Con base en él se puede definir la estrategia global para el levantamiento de información, identificando las fuentes de la misma, actividades por realizar, magnitud y alcances del proyecto, instrumentos requeridos para el trabajo y en general, prever las acciones y estimar los recursos necesarios para efectuar el estudio.<br>
+CONCLUSIÓN: <br>
+El manual técnico es el manual que utiliza el programador, este documento contiene toda la información sobre los recursos utilizados por el proyecto, llevan una descripción muy bien detallada sobre las características físicas y técnicas de cada elemento.<br><br><br>
+
+
+1.1.4.2.Elaboración de Manual de Usuario:<br>
+MANUAL DE USUARIO Importancia Del Manual De Usuario El Manual de Usuario facilita el conocimiento de:<br>
+Los documentos a los que se pueden dar entrada por computadora.
+Los formatos de los documentos.
+Las operaciones que utiliza de entrada y salida de los datos.
+El orden del tratamiento de la computadora con los datos introducidos.
+El momento en que se debe solicitar una operación deseada. Los resultados de las operaciones realizadas a partir de los datos introducidos.<br>
+Al elaborar el Manual de Usuario, hay que tener en cuenta a quién va dirigido es decir, el manual puede ser manejado desde el director de la empresa hasta el introductor de datos. Por consiguiente, debe redactarse de forma clara y sencilla para que lo entienda cualquier tipo de usuario.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/22.jpg" width="320" height="320"><br> Diagrama general del sistema:<br>
+Muestra en forma condensada el flujo general de la información y de las actividades que se realizan en el sistema. Proporciona una visión general del sistema. Representar los diagramas utilizando para ello diagramas de bloques.<br>
+Diagrama particular detallado:<br>
+Presentar gráficamente todos los pasos que se efectúen dentro del departamento usuario a quien está dirigido este manual. Deben especificarse los archivos de entrada, salida, los resultados, revisiones y procesos manuales.<br>
+Explicación Genérica De Las Fases Del Sistema:<br>
+En este punto se explica en forma específica y detallada todas las operaciones que aparecen representadas en forma gráfica en el diagrama particular. Se analizan cada una de las fases señalando:<br>
+El proceso principal que se desarrolla.<br>
+La entrada de la información.<br>
+La obtención de un resultado parcial.<br>
+El envío de información a otra dependencia.<br>
+Instalación Del Sistema:<br>
+La instalación del sistema proporciona detalles completos sobre la forma de instalar el sistema en un ambiente particular.<br>
+Iniciación Al Uso Del Sistema:<br>
+En este punto se explica cómo iniciarse en el sistema y cómo se pueden utilizar sus cualidades comunes. Esta documentación debe decir al usuario cómo salir de un problema cuando las cosas funcionan mal.<br>
+Manual De Referencia:<br>
+Es el documento definitivo de cara al usuario y debe ser completo. Describe con detalle las cualidades del sistema y su uso, los informes de error generados y las situaciones en que surgen esos errores. Dependiendo del sistema, los documentos al usuario se pueden proporcionar por separado o reunidos en varios volúmenes. Los sistemas de ayuda en línea evitan que el usuario pierda tiempo en consultas manuales.<br>
+Caducidad De Documento Fuente Y Destino Final:<br>
+Como el usuario trabajará con documentos fuentes, éstos podrán tener un período de retención y un destino especificado.<br>
+CONCLUSION:<br>
+Este manual es el que utiliza el usuario, el cliente es el que utiliza y puede ver todos los procesos.<br>
+
+
+1.1.5.Implementación y Pruebas:<br>
+Implementación:<br>
+Seleccionar las herramientas adecuadas, un entorno de desarrollo que facilite nuestro trabajo y un lenguaje de programación apropiado para el tipo de sistema que vayamos a construir. La elección de estas herramientas dependerá en gran parte de las decisiones de diseño que hayamos tomado hasta el momento y del entorno en el que nuestro sistema deberá funcionar.<br>
+Pruebas:<br>
+Tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto (y, eventualmente, corregirlos). La búsqueda de errores que se realiza en la etapa de pruebas puede adaptar distintas formas, en función del contexto y de la fase del proyecto.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/12.jpg" width="275" height="183"> <br>   <div data-role="main" class="ui-content" align="center">
+ <div style="width:99%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <a href="http://maizorito23.blogspot.com/2012/02/tarea-4-manual-tecnico-y-manual-de.html" target="_self" data-role="button">
+    <h2>MANUALES</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div> </p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Procesos para la manipulación de Bases de datos Enlazada:</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p>Programación orientada a objetos (C# y Visual Basic).<br><br>
+Introducción: <br>
+Un objeto es una estructura con datos y métodos que manipulan los datos. Si es la primera vez que entra en contacto con la programación orientada a objetos, los siguientes términos y conceptos le ayudarán a hacerse una idea general del tema. Si bien no es necesario dominar la programación orientada a objetos para desarrollar con Visual Studio (C# y Visual Basic) de forma satisfactoria, resulta de gran utilidad, ya que prácticamente la mayoría sino es que todo lo que se hace en Visual Studio (C# y Visual Basic) está asociado con objetos. <br>
+Clases y objetos:<br>
+Las palabras “clase” y “objeto” se usan tanto en la POO que resulta muy fácil confundir los términos. En general, una clase es una representación abstracta de algo, mientras que un objeto es un ejemplo utilizable de ese algo representado por la clase. La única excepción a esta regla la constituyen los miembros de clases compartidas, que se pueden usar tanto en caso de una variable de clase como de una variable de objeto declaradas como el tipo de la clase. <br>Campos, propiedades, métodos y eventos:<br>Las clases constan de campos, propiedades, métodos y eventos. Los campos y propiedades representan la información que contiene un objeto. Los campos son similares a las variables en cuanto que se pueden leer o definir directamente. <br>
+Las propiedades se recuperan y definen igual que los campos, pero se implementan mediante los procedimientos de las propiedades Get y Set, que proporcionan más control sobre el modo en que los valores se definen o se devuelven. La capa de direccionamiento indirecto entre el valor que se almacena y los procedimientos que usan dicho valor ayuda a aislar los datos y permite validar valores antes de que se asignen o se recuperen. <br>
+Los métodos representan acciones que puede realizar un objeto. Por ejemplo, un objeto “Automóvil” puede tener definidos los métodos “MotorArranque,” “Tracción” y “Parada”. Los métodos se definen al agregar procedimientos (subrutinas o funciones) a la clase. <br>
+Los eventos son notificaciones que un objeto recibe de otros objetos u otras aplicaciones o que transmite a ellos. Los eventos permiten a los objetos realizar acciones cada vez que se da un caso concreto.  Dado que Microsoft Windows es un sistema operativo condicionado por eventos, éstos pueden provenir de otros objetos, aplicaciones o acciones del usuario, por ejemplo, al hacer clic con el mouse o presionar teclas. <br>
+Encapsulación, herencia y polimorfismo:<br>
+Los campos, las propiedades, los métodos y los eventos forman sólo la mitad de la ecuación de la programación orientada a objetos. La verdadera programación orientada a objetos requiere que los objetos admitan tres cualidades: <br>
+La encapsulación implica el tratamiento de un grupo de propiedades, métodos y otros miembros como una única unidad u objeto. Los objetos pueden controlar el modo en que se cambian las propiedades y se ejecutan los métodos. Por ejemplo, un objeto puede validar valores antes de permitir cambios en propiedades. La encapsulación facilita también el cambio de implementación posterior al permitir ocultar los detalles de implementación de los objetos (ocultación de la información). <br>
+Herencia describe la capacidad de crear clases nuevas a partir de una clase existente. La nueva clase hereda todas las propiedades, métodos y eventos de la clase base, y se puede personalizar con propiedades y métodos adicionales. <br>
+El polimorfismo implica la posibilidad de tener varias clases que se pueden usar de forma intercambiable, incluso si cada clase implementa las mismas propiedades o métodos de formas distintas. El polimorfismo es esencial para la programación orientada a objetos, ya que permite usar elementos con los mismos nombres, sin importar qué tipo de objeto esté en uso en ese momento. <br>
+Sobrecarga, sustitución y ocultación:<br>
+Sobrecarga, sustitución y ocultación son conceptos similares fáciles de confundir. Aunque las tres técnicas permiten crear miembros con el mismo nombre, hay algunas diferencias importantes. <br>
+Los miembros sobrecargados se utilizan para proporcionar distintas versiones de una propiedad o método con el mismo nombre, pero que aceptan distintos números de parámetros, o parámetros con distintos tipos de datos. <br>
+Las propiedades y métodos a los que se aplica la técnica de sustitución se usan para reemplazar una propiedad o un método heredados que no resultan apropiados en una clase derivada. Los miembros sustituidos deben aceptar el mismo tipo de datos y número de argumentos. Las clases derivadas heredan miembros sustituidos. <br>
+Los miembros a los que se aplica la técnica de ocultación se usan para sustituir localmente un miembro de ámbito más amplio. Cualquier tipo se puede ver ocultado por otro tipo. Por ejemplo, puede declarar una propiedad que oculte un método heredado con el mismo nombre. Los miembros ocultos no se pueden heredar. <br>
+C# y Visual Basic y la Programación Orientada a Objetos:<br>
+Todos los lenguajes administrados de .NET Framework, como Visual Basic y C#, proporcionan plena compatibilidad con la programación orientada a objetos, incluidos la encapsulación, la herencia y el polimorfismo.
+Clases y Objetos:<br>
+Como lo mencionamos arriba, los términos clase y objeto se usan a veces indistintamente pero, en realidad, las clases describen el tipo de los objetos, mientras que los objetos son instancias de clases que se pueden usar. Así, la acción de crear un objeto se denomina creación de instancias. <br>
+Tanto Visual Basic como C# también proporcionan una versión ligera de las clases denominadas estructuras, que resultan útiles cuando es necesario crear una matriz grande de objetos y no se desea usar demasiada memoria para ello. <br>
+Miembros de Clase:<br>
+Cada clase puede tener distintos miembros de clase, entre los que se incluyen las propiedades que describen los datos de clase, los métodos que definen el comportamiento de la clase y los eventos que proporcionan comunicación entre distintos objetos y clases. <br>
+Propiedades y Campos:<br>
+Los campos y propiedades representan información que contiene un objeto. Los campos se parecen a las variables ya que se pueden leer y establecer directamente. <br>
+Las propiedades tienen procedimientos get y set, que proporcionan un mayor control sobre la forma en que se establecen o devuelven los valores. <br>
+Tanto C# como Visual Basic permiten crear un campo privado para almacenar el valor de propiedad o bien usar las denominadas propiedades de implementación automática que crean este campo en segundo plano automáticamente y proporcionan la lógica básica para los procedimientos de propiedad. <br>
+Si necesita realizar algunas operaciones adicionales para leer y escribir el valor de propiedad, defina un campo para almacenar el valor de propiedad y proporcione la lógica básica para almacenarlo y recuperar lo: <br>
+class SampleClass { private int _sample; public int Sample { // Return the value stored in a field. get { return _sample; } // Store the value in the field. set { _sample = value; } } }<br>
+La mayoría de las propiedades tienen métodos o procedimientos tanto para establecer como para obtener el valor de propiedad. Sin embargo, se pueden crear propiedades de solo lectura o solo escritura para restringir su modificación o lectura. En Visual Basic se pueden usar las palabras clave ReadOnly y WriteOnly. En C#, se puede omitir el método de propiedad get o set. Sin embargo, tanto en Visual Basic como en C#, las propiedades implementadas automáticamente no pueden ser de solo lectura o de solo escritura. <br>
+Métodos:<br>
+Un método es una acción que un objeto puede realizar.  En Visual Basic hay dos formas de crear un método: se usa la instrucción Sub si el método no devuelve un valor o bien se usa la instrucción Function si el método devuelve un valor. <br>
+Para definir un método para una clase: <br>
+class SampleClass { public int sampleMethod(string sampleParam) { // Insert code here } }<br>
+Una clase puede tener varias implementaciones o sobrecargas del mismo método que se diferencian en el número de parámetros o de tipos de parámetro. <br>
+Para sobrecargar un método: <br>
+public int sampleMethod(string sampleParam) {};
+public int sampleMethod(int sampleParam) {}<br>
+En la mayoría de los casos, un método se declara dentro de una definición de clase. Sin embargo, tanto Visual Basic como C# también admiten los métodos de extensión, que permiten agregar métodos a una clase existente fuera de la definición de la clase en sí. <br>
+Constructores:<br>
+Los constructores son métodos de clase que se ejecutan automáticamente cuando se crea un objeto de un tipo determinado. Normalmente, los constructores inicializan los miembros de datos del nuevo objeto. Un constructor solo puede ejecutarse una vez cuando se crea una clase. Además, el código del constructor siempre se ejecuta antes que cualquier otro código en una clase. Sin embargo, puede crear varias sobrecargas del constructor de la misma forma que para cualquier otro método. <br>
+Destructores: <br>
+Los destructores se utilizan para destruir instancias de clases. En .NET Framework, el recolector de elementos no utilizados administra automáticamente la asignación y la liberación de memoria para los objetos administrados en la aplicación. Sin embargo, es posible que aún se necesiten destructores para limpiar cualquiera de los recursos no administrados creados por la aplicación. Solo puede haber un destructor para una clase. <br>
+Eventos:<br>
+Cuando ocurre algo interesante, los eventos habilitan una clase u objeto para notificarlo a otras clases u objetos. La clase que envía (o genera) el evento recibe el nombre de publicador y las clases que reciben (o controlan) el evento se denominan suscriptores. <br>
+Clases Anidadas: <br>
+Una clase definida dentro de otra se denomina anidada. De forma predeterminada, una clase anidada es privada. <br>
+class Container { class Nested { // Add code here. } }<br>
+Para crear una instancia de la clase anidada, use el nombre de la clase contenedora seguido de un punto y seguido, a continuación, del nombre de la clase anidada: <br>
+Container.Nested nestedInstance = new Container.Nested();<br>
+Modificadores y Niveles de Acceso: <br>
+Todas las clases y miembros de clase pueden especificar el nivel de acceso que proporcionan a otras clases mediante los modificadores de acceso. <br>
+Creación de Instacias de Clases: <br>
+Para crear un objeto, debe crear una o varias instancias de una clase. <br>
+SampleClass sampleObject = new SampleClass();<br>
+Una vez creadas las instancias de una clase, puede asignar valores a las propiedades y los campos de la instancia, así como invocar métodos de clase. <br>
+Clases y Miembros Estáticos: <br>
+Un miembro estático (compartido en Visual Basic) de la clase es una propiedad, un procedimiento o un campo que comparten todas las instancias de una clase. <br>
+Para definir un miembro estático (compartido): <br>
+static class SampleClass { public static string SampleString = "Sample String"; }<br>
+Para obtener acceso al miembro estático (compartido), use el nombre de la clase sin crear un objeto perteneciente a esta: <br>
+Console.WriteLine(SampleClass.SampleString); <br>
+Las clases estáticas (compartidas) de C# y los módulos de Visual Basic solamente tienen miembros estáticos (compartidos) y no se pueden crear instancias de los mismos. Además, los miembros estáticos (compartidos) tampoco pueden tener acceso a las propiedades, los campos o los métodos no estáticos (no compartidos). <br>
+Tipos Anónimos: <br>
+Los tipos anónimos permiten crear objetos sin escribir una definición de clase para el tipo de datos. En su lugar, el compilador genera una clase. La clase no tiene ningún nombre que se pueda usar y contiene las propiedades especificadas al declarar el objeto. <br>
+Herencia: <br>
+La herencia permite crear una nueva clase que reutiliza, extiende y modifica el comportamiento que se define en otra clase. La clase cuyos miembros se heredan se denomina clase base y la clase que hereda esos miembros se denomina clase derivada. Sin embargo, todas las clases de C# y Visual Basic heredan implícitamente de la clase Object que admite la jerarquía de clases .NET y proporciona servicios de bajo nivel a todas las clases. <br>
+Los lenguajes administrados de .NET Framework no admiten la herencia múltiple, es decir, solo se puede especificar una clase base para una clase derivada. <br>
+Interfaces:<br>
+Las interfaces, como las clases, definen un conjunto de propiedades, métodos y eventos. Pero de forma contraria a las clases, las interfaces no proporcionan implementación. Se implementan como clases y se definen como entidades separadas de las clases. Una interfaz representa un contrato, en el cual una clase que implementa una interfaz debe implementar cualquier aspecto de dicha interfaz exactamente como esté definido. <br>
+Genéricos: <br>
+Las clases, las estructuras, las interfaces y los métodos de .NET Framework pueden escribir parámetros que definen los tipos de objetos que estos pueden almacenar o usar. El ejemplo más común de elementos genéricos es una colección, donde se puede especificar el tipo de objetos que se va a almacenar en una colección. <br>
+
+Delegados: <br>
+Un delegado es un tipo que define una firma de método y que puede proporcionar una referencia a cualquier método con una firma compatible. Puede invocar (o llamar) al método a través del delegado. Los delegados se utilizan para pasar métodos como argumentos a otros métodos. <br>
+Los controladores de eventos no son más que métodos que se invocan a través de delegados. <br>
+
+
+          <img src="imagenes/16.jpg" width="100" height="133"> <br>
+          
+         2.2.Manejo del Sftware Visual Basic 2010<br><br>
+          
+          A continuación veremos la parte un tutorial de como de maneja este control y un ejemplo el cual deberá ser realizado por cada uno de ustedes. <br>
+ 
+Puede proporcionar un menú estándar a los formularios con el control MenuStrip.
+Este tutorial muestra cómo utilizar un control MenuStrip para crear un menú estándar.El formulario también responde cuando un usuario selecciona un elemento de menú.En este tutorial se muestran las tareas siguientes: <br>
+•	Crear un proyecto de formularios Windows Forms. <br>
+•	Crear un menú estándar.<br>                                
+•	Controlar la selección de elementos de menú. <br>
+Cuando termine, tendrá un formulario con un menú estándar que muestra las selecciones de elementos de menú en un control StatusStrip. <br>
+      
+El primer paso es crear el proyecto y configurar el formulario. <br>
+Para crear el proyecto:<br>
+1.	Cree un proyecto de aplicación para Windows denominado StandardMenuForm. <br>
+Para obtener más información. <br>              
+2.	En el Diseñador de Windows Forms, seleccione el formulario. <br>
+           
+El Diseñador de Windows Forms puede rellenar automáticamente un controlMenuStrip con elementos de menú estándar. <br>
+Para crear un menú estándar: <br>
+1.	En el Cuadro de herramientas, arrastre un control MenuStrip hasta el formulario. <br>
+2.	Haga clic en el glifo () de etiqueta inteligente del control MenuStrip y seleccioneInsertar elementos estándar. 
+Se rellenará el control MenuStrip con los elementos de menú estándar. <br>
+3.	Haga clic en el elemento de menú Archivo para ver sus elementos de menú predeterminados y los iconos correspondientes. <br>
+ EJEMPLO: <br>
+ 
+1. Empiece una aplicación de visual basic de la forma conocida. <br>
+2. En el cuadro de herramientas ubique el objeto MenuStrip<br>
+ 
+<img src="imagenes/23.jpg" width="193" height="308"> <br>
+3. Ubíquelo al inicio de su aplicación como se muestra en la siguiente figura. <br>
+ 
+<img src="imagenes/24.jpg" width="320" height="50"><br>
+ 4. De clic en la opción Escriba Aquí y escriba la palabra &Archivo y justamente abajo Cerrar<br>
+ <img src="imagenes/25.jpg" width="256" height="119"> <br>
+ 5. Continúe hasta lograr lo siguiente. <br>
+ <img src="imagenes/26.jpg" width="261" height="154"> <br>
+ 6. Pata poder asignar un acceso directo a la opción deberá seleccionar la propiedad
+ShortcutkeydisplayString y asignar la que mejor le convenga. <br>
+7. Deberá quedar como sigue: <br>
+<img src="imagenes/27.jpg" width="320" height="129"><br>
+ 8. Para ingresar el código, seleccione la opción en que desea iniciar la programación y de doble clic para su ingreso. <br>
+ 
+9. Genere una interfaz como se muestra a continuación. <br>
+ <img src="imagenes/28.jpg" width="320" height="141"> <br>
+Objetos a usar: <br>
+4 etiquetas. <br>
+2 cajas de texto. <br>
+1 botón. <br><br>
+ 
+10. El código para la opción "Cerrar" será el siguiente. <br>
+Dim a As String<br>
+a = MsgBox("Desea salir del programa", MsgBoxStyle.YesNo + MsgBoxStyle.Question, "Salir")If a = vbYes Then<br>
+End<br>
+End If<br><br>
+ 
+11. Agregue una variable global llamada resp de tipo string<br>
+ 
+Public Class Form1<br>
+Dim resp As String<br><br>
+ 
+12. El código para la opción del cálculo del área del cuadrado es el siguiente. <br>
+ 
+Label2.Visible = False<br>
+Label4.Visible = False<br>
+TextBox2.Visible = False<br>
+Label1.Visible = True<br>
+Label1.Text = "Deme el valor del lado"<br>
+TextBox1.Visible = True<br>
+Label3.Visible = True<br>
+Label3.Text = "El area del cuadrado es: "<br>
+resp = "cuadro"<br><br>
+ 
+13. El código para la opción del cálculo del área del rectángulo es el siguiente. <br>
+ 
+Label1.Visible = True<br>
+Label1.Text = "Deme el valor de la altura"<br>
+Label2.Visible = True<br>
+Label2.Text = "Deme el valor de la base"<br>
+TextBox1.Visible = True<br>
+TextBox2.Visible = True<br>
+Label3.Visible = True<br>
+Label3.Text = "El area del rectangulo es: "<br>
+resp = "rectángulo"<br><br>
+ 
+14. El código para el botón calcular es el siguiente: <br>
+ 
+If resp = "cuadro" Then<br>
+Dim a, b, c As Integer<br>
+a = Val(TextBox1.Text) <br>
+b = a * a<br>
+Label4.Visible = True<br>
+Label4.Text = bElse<br>
+If resp = "rectangulo" Then<br>
+Dim a, b As Integer<br>
+a = Val(TextBox1.Text) <br>
+b=Val(Textbox2.text) <br>
+c = a * b<br>
+Label4.Visible = True<br>
+Label4.Text = b<br>
+End If<br>
+End If<br>
+ 
+ 15. Termine su programa agregando los cálculos para el triángulo y el circulo, así como para el cálculo del perímetro. <br><br>
+ <img src="imagenes/20.jpg" width="150" height="180"><br>
+  
+          2.3.Prácticas con diferentes objetos en Visual Basic (Botones, Imágenes, Listas, ComboBox, Timer, etc)<br><br>
+           
+           EJEMPLO: <br>
+ 
+1. Empiece una aplicación de visual basic de la forma conocida. <br>
+2. En el cuadro de herramientas ubique el objeto MenuStrip<br>
+ 
+<img src="imagenes/23.jpg" width="193" height="308"> <br>
+3. Ubíquelo al inicio de su aplicación como se muestra en la siguiente figura. <br>
+ 
+<img src="imagenes/24.jpg" width="320" height="50"><br>
+ 4. De clic en la opción Escriba Aquí y escriba la palabra &Archivo y justamente abajo Cerrar<br>
+ <img src="imagenes/25.jpg" width="256" height="119"> <br>
+ 5. Continúe hasta lograr lo siguiente. <br>
+ <img src="imagenes/26.jpg" width="261" height="154"> <br>
+ 6. Pata poder asignar un acceso directo a la opción deberá seleccionar la propiedad
+ShortcutkeydisplayString y asignar la que mejor le convenga. <br>
+7. Deberá quedar como sigue: <br>
+<img src="imagenes/27.jpg" width="320" height="129"><br>
+ 8. Para ingresar el código, seleccione la opción en que desea iniciar la programación y de doble clic para su ingreso. <br>
+ 
+9. Genere una interfaz como se muestra a continuación. <br>
+ <img src="imagenes/28.jpg" width="320" height="141"> <br>
+Objetos a usar: <br>
+4 etiquetas. <br>
+2 cajas de texto. <br>
+1 botón. <br><br>
+ 
+10. El código para la opción "Cerrar" será el siguiente. <br>
+Dim a As String<br>
+a = MsgBox("Desea salir del programa", MsgBoxStyle.YesNo + MsgBoxStyle.Question, "Salir")If a = vbYes Then<br>
+End<br>
+End If<br><br>
+ 
+11. Agregue una variable global llamada resp de tipo string<br>
+ 
+Public Class Form1<br>
+Dim resp As String<br><br>
+ 
+12. El código para la opción del cálculo del área del cuadrado es el siguiente. <br>
+ 
+Label2.Visible = False<br>
+Label4.Visible = False<br>
+TextBox2.Visible = False<br>
+Label1.Visible = True<br>
+Label1.Text = "Deme el valor del lado"<br>
+TextBox1.Visible = True<br>
+Label3.Visible = True<br>
+Label3.Text = "El area del cuadrado es: "<br>
+resp = "cuadro"<br><br>
+ 
+13. El código para la opción del cálculo del área del rectángulo es el siguiente. <br>
+ 
+Label1.Visible = True<br>
+Label1.Text = "Deme el valor de la altura"<br>
+Label2.Visible = True<br>
+Label2.Text = "Deme el valor de la base"<br>
+TextBox1.Visible = True<br>
+TextBox2.Visible = True<br>
+Label3.Visible = True<br>
+Label3.Text = "El area del rectangulo es: "<br>
+resp = "rectángulo"<br><br>
+ 
+14. El código para el botón calcular es el siguiente: <br>
+ 
+If resp = "cuadro" Then<br>
+Dim a, b, c As Integer<br>
+a = Val(TextBox1.Text) <br>
+b = a * a<br>
+Label4.Visible=True<br>
+Label4.Text=bElse<br>
+If resp="rectangulo" Then<br>
+Dim a, b As Integer<br>
+a=Val(TextBox1.Text) <br>
+b=Val(Textbox2.text) <br>
+c=a * b<br>
+Label4.Visible = True<br>
+Label4.Text = b<br>
+End If<br>
+End If<br>
+ 
+ 15. Termine su programa agregando los cálculos para el triángulo y el circulo, así como para el cálculo del perímetro. <br><br>
+          2.4.Uso de componentes:<br><br>
+          Una característica importante de los componentes es que se pueden diseñar, lo que significa que se puede usar una clase que es un componente en el entorno de desarrollo integrado de Visual Studio. Los componentes se pueden agregar al cuadro de herramientas, se pueden arrastrar y soltar en un formulario y se pueden manipular en una superficie de diseño. Observe que la compatibilidad en tiempo de diseño de los componentes está integrada en .NET Framework; un programador de componentes no tiene que efectuar ninguna tarea adicional para aprovechar las funcionalidades base del tiempo de diseño.<br>
+Un control es similar a un componente, ya que ambos se pueden diseñar, con la diferencia de que un control proporciona una interfaz de usuario, mientras que un componente no. Un control debe derivar de una de las clases de control base: Control o Control. .<br>
+Cuándo se debe crear un componente: .<br>
+Si la clase se va a usar en una superficie de diseño (como en Windows Forms o en el Diseñador de Web Forms) pero no tiene ninguna interfaz de usuario, debe ser un componente y debe implementar IComponent, o bien debe derivarse de una clase que implemente directa o indirectamente IComponent. .<br>
+Las clases Component y MarshalByValueComponent son implementaciones base de la interfaz IComponent. La principal diferencia entre estas clases es que la clase Componentse calcula por referencia, mientras que IComponent se calcula por valor. En la lista siguiente se proporcionan directrices generales para los implementadores. .<br>
+•	Si el componente se tiene que calcular por referencia, se debe derivar de Component. .<br>
+•	Si el componente se tiene que calcular por valor, se debe derivar de MarshalByValueComponent. .<br>
+•	Si el componente no se puede derivar de una de las implementaciones base debido a la herencia única, implemente IComponent. .<br>
+Clases de componentes: .<br>
+El espacio de nombres System.ComponentModel proporciona clases que se usan para implementar el comportamiento de los componentes y controles en tiempo de diseño y en tiempo de ejecución. Este espacio de nombres incluye las clases bases y las interfaces para implementar atributos y convertidores de tipos, enlazarlos con orígenes de datos y generar licencias para los componentes. .<br>
+Las clases de componentes básicas son las siguientes: .<br>.<br>
+•	Component. Una implementación base para la interfaz IComponent. Esta clase permite el uso compartido de objetos entre aplicaciones. .<br>
+•	MarshalByValueComponent. Una implementación base para la interfaz IComponent. .<br>
+•	Container. La implementación base de la interfaz IContainer. Esta clase encapsula cero o más componentes. .<br>
+Algunas de las clases usadas para la generación de licencias de componentes son las siguientes: .<br>
+•	License. Clase base abstracta para todas las licencias. Las licencias se conceden a una instancia específica de un componente. .<br>
+•	LicenseManager. Proporciona propiedades y métodos para agregar una licencia a un componente y administrar un LicenseProvider. .<br>
+•	LicenseProvider. Clase base abstracta para implementar un proveedor de licencias. .<br>
+•	LicenseProviderAttribute. Especifica la clase LicenseProvider que se va a usar con una clase. .<br>
+Clases usadas habitualmente para describir y conservar componentes. .<br>
+•	TypeDescriptor. Proporciona información sobre las características de un componente, como sus atributos, propiedades y eventos. .<br>
+•	EventDescriptor. Proporciona información sobre un evento. .<br>
+•	PropertyDescriptor. Proporciona información sobre una propiedad.<br><br>
+
+         2.5.Enlazando Bases de datos por medio de Active Data Object de Visual Basic:<br><br>
+         Primero lo que debes hacer es conseguir tu string de conexión. Para ello crea un archivo de texto en cualquier lado y cambiale la extencion por ".udl". Vas a ver que se cambia el icono. Le haces doble clic y se te abre una ventana. Vas a la pestaña Proveedor y eliges Microsoft jet 4.0 OLE DB provider. Preciona siguiente y pone la ruta donde guardaste tu base de datos de Access, lo otro lo dejas como estas a menos que le hayas puesto una contraseña a la BD. En este último caso cambia los parametros según corresponda. Apreta aceptar.<br>
+Ahora abrilo como el bloc de notas y copia la línea que dice algo como: <br><br>
+
+Provider=Microsoft.Jet.OLEDB.4.0;Data<br>
+Source=C:\Users\Public\Documents\DB\BaseDeDatos.md b;Persist Security Info=False<br>
+
+
+Ahora vamos a tu proyecto de vb. crea un formulario y ponele el textBox y un botón. Luego anda al código y escribí lo siguiente: <br><br>
+
+Public Class Form1<br>
+Dim stringConexion As String ="aca la linea de código que copiaste del archivo udl" <br>
+
+Private Sub insertarEnTabla()<br>
+Dim conexion As New Data.OleDb.OleDbConnection<br>
+Dim cmd As New Data.OleDb.OleDbCommand<br>
+Dim data As New DataTable<br>
+Dim consulta As String<br>
+
+conexion.ConnectionString = stringConexion<br>
+conexion.Open()<br>
+
+consulta = "insert into nombreTabla values ('" & texBox.text.trim & "')" 'esta es la sentencia que insertara el texto de tu texBox dentro de la tabla qeu hayas creado en access<br>
+cmd.CommandType = CommandType.Text<br>
+cmd.CommandText = consulta<br>
+cmd.Connection = conexión<br>
+cmd.ExecuteNonQuery()<br>
+conexion.Close()<br>
+
+
+End Sub<br>
+
+Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click 'esto es el evento click del boton, lo generas simplemente haciendo doble clic en el mismo dentro del formulario. <br>
+insertarEnTabla<br>
+
+End Sub<br>
+
+End Class<br>
+<img src="imagenes/9.jpg" width="100" height="68"><br>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:99%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <a href="http://www.forosdelweb.com/f29/conectar-base-datos-visual-basic-2010-a-851513/" target="_self" data-role="button">
+    <h2>Conexión de base de datos<br>
+A visual Basic
+</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div></p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>introduccion SQL</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <ul>
+      <li>SQL significa lenguaje de consulta estructurado</li>
+      <li>SQL le permite acceder y manipular bases de datos</li>
+      <li>SQL se convirtió en un estándar del Instituto Nacional de Estándares Americanos (ANSI) en 1986, y de la Organización Internacional de Normalización (ISO) en 1987</li>
+    </ul>
+    <p>SQL es un lenguaje estándar para almacenar, manipular y recuperar datos en bases de datos.</p>
+    <p>Nuestro tutorial SQL le enseñará cómo usar SQL en: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres y otros sistemas de bases de datos. </p>
+    <p><br>
+  <img src="../tercer parcial/aplicaciones/app10/imagenes/14.jpg" width="90" height="90"><br><div data-role="main" class="ui-content" align="center">
+ <div style="width:99%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://devcode.la/blog/que-es-sql/" target="_self" data-role="button">
+    <h2>SQL</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div></p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Altas y Bajas:</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p>Altas y Bajas:<br>
+    ALTA EN ACCES = NUEVO REGISTRO <br>
+BAJA EN ACCES = CANCELAR REGISTRO, UN EJEMPLO, haces una base de datos, con 1 tabla simple llamada ALUMNOS, es decir en esta tabla agregadras los datos de un alumno, con los siguientes datos <br><br>
+
+TABLA ALUMNOS: <br>
+-NUM_CREDENCIAL <br>
+-NOMBRE_ALUMNO <br>
+-GRUPO <br>
+-GRADO <br>
+
+Ahora para dar de ALTA un alumno es: <br>
+-NUM_CREDENCIAL: 123456789 <br>
+-NOMBRE_ALUMNO: JACK <br>
+-GRUPO: 7 <br>
+-GRADO: 6 <br>
+
+asi de facil y dar de BAJA un alumno, seria nada mas BORRAR EL REGISTRO, <br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/9.jpg" width="60" height="68"></p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Funcionamiento del sistema de información</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p>3.4.Proceso para Modifcación de datos: <br>
+ La instalación de la base de datos suele ser responsabilidad del administrador de la base de datos (DBA: Data base Administrador), que se encarga de recopilar todas las sentencias DDL necesarias para crear los distintos esquemas de la base de datos. - Una vez creados estos esquemas, se procede a la carga inicial de los datos en la base de datos, para lo cual puede ser necesaria la implementación de rutinas de conversión, tal como vimos al describir el ciclo de vida de una base de datos. Mantenimiento - Casi todos los sistemas gestores de bases de datos incluyen alguna utilidad que nos permite supervisar el funcionamiento del sistema. Dichas utilidades de monitorización recopilan información estadística del uso del sistema para su análisis posterior, lo que nos facilitará todas las tareas relacionadas con la optimización del rendimiento del sistema. - Cuando los requisitos del sistema cambien y haya que actualizar las aplicaciones de nuestro <br>
+Sistema de información, el esquema de la base de datos también se verá sometido a algunas Modificaciones.<br><br>
+3.4.Proceso para Consultas de datos:<br>
+
+CONSULTAS:<br>
+Las consultas son un elemento habitual de las bases de datos, por lo que resulta necesario conocer con detalle todo lo relativo a estas, detallado en el capítulo Bases_datos. Cuando dichas bases de datos incluyen la componente espacial, hacen uso de las relaciones espaciales para definir relaciones entre elementos. Estas fueron descritas en el capítulo Analisis_espacial, cuyo estudio es necesario antes de abordar el del presente capítulo. <br><br>
+
+Introducción<br>
+El análisis más simple que podemos efectuar sobre una capa (o varias) de información geográfica es la simple consulta de esta. Entendemos por consulta una operación en la cual preguntamos a los datos geográficos algún tipo de cuestión simple, generalmente basada en conceptos formales sencillos. Este tipo de análisis, aunque no implica el uso de conceptos analíticos complejos, es uno de los elementos clave de los SIG, pues es parte básica del empleo diario de estos. <br>
+En el contexto espacial, una consulta representa un uso similar al que damos a un mapa clásico, cuando en base a este respondemos a preguntas como ¿qué hay en la localización X? o ¿qué ríos pasan por la provincia Y? No obstante, no debemos olvidar que los datos espaciales tienen dos componentes: una espacial y otra temática. Preguntas como las anteriores hacen referencia a la componente espacial, pero igualmente pueden efectuarse consultas que se apliquen sobre la parte temática. Y más aún, pueden efectuarse consultas conjuntas que interroguen a los datos geográficos acerca de los atributos espaciales y temáticos que estos contienen. <br>
+Las consultas se entienden en general como relativas a capas vectoriales, pues son dicho modelo de representación y su estructura de datos los que mejor se adaptan a la forma particular de las consultas. En este capítulo veremos cómo trabajar mayoritariamente con datos vectoriales, aunque también se harán referencias a datos ráster, pues estos últimos contienen igualmente datos geográficos y pueden consultarse y responder a preguntas como las formuladas anteriormente. <br>
+En las capas vectoriales, y como vimos en los capítulos Tipos_datos y Bases_datos, la división entre la componente temática y espacial es más patente, existiendo incluso una división a nivel de archivos y de los elementos tecnológicos empleados para el trabajo con cada una de ellas dentro de un SIG. En el caso de las consultas, se mantiene un enfoque similar, y encontramos esa misma separación. Los lenguajes de consulta, que en breve veremos con más detalle y que resultan básicos para elaborar consultas y obtener resultados, han seguido una evolución paralela a la de los propios sistemas gestores de bases de datos en su adaptación al entorno espacial de los SIG. <br>
+Antes de que los SIG incorporan las bases de datos como parte integrante, los sistemas gestores de bases de datos ya existían y tenían un cierto grado de desarrollo. Precisamente, y como ya sabemos, la intención original era la de representar la información geográfica de acuerdo con un modelo que permitiera hacer uso de otras aplicaciones ya desarrolladas y de utilidad probada como eran dichos sistemas. <br>
+Siguiendo este mismo enfoque, estudiaremos en primer lugar los conceptos fundamentales relativos a consultas en bases de datos, sin tratar por el momento la componente espacial. Posteriormente extenderemos estos conceptos para ver la verdadera potencia de estas dentro del ámbito SIG, que resulta de añadir la componente espacial y los conceptos sobre relaciones espaciales que vimos en el capítulo Analisis_espacial. <br>
+Si el lector esta familiarizado con los conceptos relativos a bases de datos no espaciales y las consultas sobre estas, puede prescindir de leer la próxima sección y avanzar hasta la siguiente para ver directamente las particularidades del trabajo con bases de datos espaciales. De cualquier modo, el capítulo no pretende ser un manual sobre el uso de bases de datos o sus fundamentos, ya que este tema es muy amplio y escapa por completo al alcance de este texto. <br><br>
+Consultas dentro de un SIG<br>
+Antes de entrar en detalle en los distintos tipos de consultas y la forma de realizar estas, veamos qué es lo que realmente significa una consulta dentro de un SIG. Aunque mencionaremos algunos breves ejemplos de consultas sobre capas ráster, en general ya hemos dicho que estas se entienden como consultas sobre datos vectoriales, en los cuales la estructura propia del dato es más propicia para este tipo de operaciones. Así, partimos de datos vectoriales y de la presencia de algún Sistema Gestor de Bases de Datos o tecnología similar dentro de un SIG. <br>
+En este contexto, una consulta no es sino una llamada a dicho sistema gestor, el cual devuelve como respuesta una serie de elementos tomados de la información contenida en la base de datos. Es decir, del total de datos obtenemos como consecuencia de la consulta una parte de los mismos. La respuesta a nuestra consulta es un conjunto de elementos, de la misma forma que si en un mapa impreso preguntamos ¿qué hay aquí? y obtenemos como respuesta los datos correspondientes al punto que señalamos. Estos datos son una fracción particular del conjunto de todos los contenidos en dicho mapa. <br>
+El resultado de una consulta en un SIG generalmente es lo que conocemos como selección. De todos los registros de la tabla de datos, aquellos que cumplen el criterio indicado se marcan como seleccionados, y posteriormente pueden utilizarse únicamente estos como base de otro análisis, o simplemente el usuario puede ver cuáles han sido los seleccionados para así obtener la respuesta a su consulta. <br><br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/16.jpg" width="60" height="59"><br>
+ 3.5.Proceso para la creación de informes de datos<br><br>
+Un informe se compone de información que se obtiene de las tablas o consultas, así como información almacenada en el diseño del informe, como títulos, etiquetas y gráficos. Las tablas o consultas que proporcionan los datos subyacentes se conocen también como origen de registros del informe. Si los campos que desea incluir se encuentran en una sola tabla, use esa tabla como origen de registros. Si los campos están incluidos en más de una tabla, deberá usar una o varias consultas como origen de registros. Las consultas pueden existir ya en la base de datos, o es posible que deba crear consultas específicamente para satisfacer las necesidades del informe.<br><br>
+Crear un informe mediante la herramienta de informes:<br>
+La herramienta de informes es la forma más rápida de crear un informe, porque lo genera inmediatamente sin solicitarle información. El informe muestra todos los campos de la tabla o consulta subyacente. Es posible que la herramienta de informes no cree el producto final elegante que desea, pero es muy útil para buscar rápidamente los datos subyacentes. Después puede guardar el informe y modificarlo en la vista Presentación o Diseño para adaptarlo mejor a sus necesidades. <br>
+1.	En el Panel de navegación, haga clic en la tabla o consulta en la que desea basar el informe. <br>
+2.	En la pestaña Crear, en el grupo Informes, haga clic en Asistente. <br>
+Access crea y muestra el informe en la vista Presentación. <br>
+3.	Para obtener más información sobre cómo ver e imprimir el informe, consulte la sección . <br>
+Después de ver el informe, puede guardarlo y después cerrar el informe y la tabla o consulta subyacente que usó como origen de registros. La próxima vez que abra el informe, Access mostrará los datos más recientes en el origen de registros. <br><br>
+Crear un informe mediante el Asistente para informes:<br>
+Puede usar el Asistente para informes para ser más selectivo con los campos que aparecen en el informe. También puede especificar cómo se agrupan y ordenan los datos, y puede usar campos de más de una tabla o consulta, siempre que haya especificado con anterioridad las relaciones entre ellas. <br>
+•	En la pestaña Crear, en el grupo Informes, haga clic en Asistente para informes. <br>
+•	Siga las instrucciones de las páginas del Asistente para informes. En la última, haga clic en Finalizar. <br>
+Cuando previsualice el informe, lo verá como aparecerá impreso. También puede aumentar el nivel de zoom para ampliar detalles. Para obtener más información sobre cómo ver e imprimir el informe, consulte la sección. <br>
+Nota: Si desea incluir en su informe campos de varias tablas y consultas, no haga clic en Siguiente ni en Finalizar después de seleccionar los campos de la primera tabla o consulta en la primera página del Asistente para informes. Repita los pasos para seleccionar una tabla o consulta y haga clic en los demás campos que desee incluir en el informe. Después, haga clic en Siguiente o Finalizar para proseguir. <br>
+Crear etiquetas utilizando el Asistente para etiquetas<br>
+Use el Asistente para etiquetas para crear fácilmente etiquetas de una amplia variedad de tamaños de etiqueta estándar. <br>
+1.	En el Panel de navegación abra la tabla o consulta que será el origen de registros para las etiquetas haciendo doble clic. <br>
+2.	En la pestaña Crear, en el grupo Informes, haga clic en Etiquetas. <br>
+3.	Siga las instrucciones incluidas en las páginas del Asistente para etiquetas. En la última, haga clic en Finalizar. <br>
+Access muestra las etiquetas en la Vista preliminar de impresión para que pueda verlas como aparecerán cuando se impriman. Puede usar el control deslizante en la barra de estado de Access para ampliar detalles. Para obtener más información sobre cómo ver e imprimir el informe, consulte la sección. <br>
+Nota: La Vista preliminar de impresión es la única vista que se puede usar para ver varias columnas, las demás vistas muestran los datos en una sola columna. <br>
+Crear un informe utilizando la herramienta Informe en blanco<br>
+Si no desea usar la herramienta de informes o el Asistente para informes, puede usar la herramienta Informe en blanco para crear un informe desde cero. Con este método, puede crear un informe con gran rapidez, sobre todo si planea incluir en él solo algunos campos. En el siguiente procedimiento se explica cómo usar la herramienta Informe en blanco: <br>
+•	En la pestaña Crear, en el grupo Informes, haga clic en Informe en blanco. <br>
+Se muestra un informe en blanco en la Vista Presentación y el panel Lista de campos se muestra a la derecha de la ventana de Access. <br>
+•	En el panel Lista de campos, haga clic en el signo más situado junto a la tabla o las tablas que contienen los campos que quiera ver en el informe. <br>
+•	Arrastre cada campo del informe de uno en uno, o mantenga presionada la tecla Ctrl y seleccione varios campos y después arrástrelos a la vez al informe. <br>
+•	Use las herramientas del grupo Encabezado o pie de página en la pestaña Diseño para incluir en el informe un logotipo, un título, números de página o la fecha y la hora. Tenga en cuenta que si usa Access 2007, estas herramientas están en el grupo Controles de la pestaña Formato. <br>
+Obtener información sobre las secciones del informe<br>
+En Access, el diseño de un informe está dividido en secciones. Puede ver el informe en la vista Diseño para ver sus secciones. Para crear informes útiles, necesita comprender cómo funciona cada sección. Por ejemplo, la sección en la que eligió colocar un control calculado determina cómo calcula Access los resultados. La siguiente lista es un resumen de los tipos de sección y sus usos: <br>
+•	Encabezado del informe : Esta sección solo se imprime una vez, al principio del informe. El encabezado del informe se usa para ofrecer información que normalmente aparecería en una página de portada, como un logotipo o un título y una fecha. Cuando se coloca un control calculado que usa la función de agregado de Suma en el encabezado del informe, el resultado de la suma se calcula para todo el informe. El encabezado del informe se imprime antes del encabezado de página. <br>
+•	Encabezado de página    Esta sección se imprime en la parte superior de cada página. Por ejemplo, el encabezado de página se usa para repetir el título del informe en todas las páginas. <br>
+•	Encabezado de grupo  Esta sección se imprime al principio de cada grupo de registros nuevo. Use el encabezado de grupo para imprimir el nombre del grupo. Por ejemplo, en un informe agrupado por productos, utilice el encabezado de grupo para imprimir el nombre del producto. Cuando se coloca un control calculado que usa la función de agregado Suma en el encabezado de grupo, la suma es para el grupo actual. <br>
+•	Detalle    Esta sección se imprime una vez para cada fila en el origen de registros. Aquí se colocan los controles que constituyen el cuerpo principal del informe. <br>
+•	Pie de grupo    Esta sección se imprime al final de cada grupo de registros. Use un pie de grupo de para imprimir información de resumen de un grupo. <br>
+•	Pie de página    Esta sección se imprime en la parte inferior de cada página. El pie de página se usa para imprimir números de página o información sobre cada página. <br>
+•	Pie de informe    esta sección se imprime una sola vez, al final del informe. El pie de informe se usa para imprimir totales de los informes u otra información de resumen de todo el informe. <br>
+Nota: En la vista Diseño, el pie del informe aparece debajo del pie de página. Sin embargo, cuando el informe se imprime o se obtiene una vista previa del mismo, el pie de informe aparece encima del pie de página, inmediatamente después del último pie de grupo o línea de detalle en la última página. <br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/11.jpg" width="60" height="60"><br>
+</p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Diseño de Manuales</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p>MANUAL TÉCNICO<br>
+1. Índice:<br>
+Relación de los capítulos y páginas correspondientes que forman parte del documento.<br>
+2. Introducció:<br>
+Se debe presentar una breve descripción del sistema desarrollado, que contemple el ámbito abarcado, cuál es su función principal y un detalle de las funciones macros o partes que lo componen. Puede incluir un mensaje de la máxima autoridad de las áreas comprendidas en el manual.<br>
+2.1. Objetivo general del sistema:<br>
+Se debe de describir el objetivo general del sistema.<br>
+2.2. Objetivos específicos:<br>
+Se deben describir brevemente los objetivos específicos que se cumplieron con el desarrollo del sistema.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/21.gif" width="60" height="60"> <br>
+3. Contenido técnico:<br>
+3.1. Definición de reglas del negocio implementadas en el sistema desarrollado.<br>
+3.2. Diagramas de flujo de datos, junto con su respectivo diccionario de datos.<br>
+3.3. Controles de auditoria implementados en el sistema.<br>
+3.4. Descripción de campos requeridos por pantalla con presentación de pantallas.<br>
+3.5. Diagrama de navegación del sistema.<br>
+3.6. Requerimientos de interfase con otros sistemas.<br>
+3.7. Modelo lógico de datos, diagrama entidad-relación.<br>
+3.8. Modelo de datos físico, junto con su respectivo diccionario de datos.<br>
+3.9. Matriz de procesos versus organización.<br>
+3.10. Matriz de programas versus entidades.<br>
+3.11. Plataforma de usuario. Aquí se describen los requerimientos mínimos que se deben tener tanto de hardware como de software para que el sistema se pueda instalar y ejecutar correctamente (en caso de que se considere necesario).<br>
+3.12. Áreas de aplicación y/o alcance de los procedimientos.<br>
+Esfera de acción que cubren los procedimientos 4. Responsables.<br>
+Para iniciar los trabajos que conducen a la integración de un manual, es indispensable prever que no queda diluida la responsabilidad de la conducción de las acciones en diversas personas, sino que debe designarse a un coordinador, auxiliado por un equipo técnico, al que se le debe encomendar la conducción del proyecto en sus fases de diseño, implantación y actualización. De esta manera se logra homogeneidad en el contenido y presentación de la información. Por lo que respecta a las características del equipo técnico, es conveniente que sea personal con un buen manejo de las relaciones humanas y que conozca a la organización en lo que concierne a sus objetivos, estructura, funciones y personal. Para este tipo de trabajo, una organización puede nombrar a la persona que tenga los conocimientos y la experiencia necesarios para llevarlo a cabo. Por la naturaleza de sus funciones puede encargarlo al titular del área específica. Asimismo, puede contratar los servicios de consultores externos.<br>
+4.1. Mapa de navegación. Muestra de forma gráfica la interconexión entre cada una de las pantallas del sistema, lo que serviría para saber cómo llegar a determinada parte de la aplicación. En este se muestran los menús, submenús y pantallas a las que nos lleva cada uno de ellos.<br>
+4.2. Descripción gráfica del mapa de navegación. En el anterior aparece de forma de diagrama de flujo y en esta sección deberá aparecer ya con las respectivas pantallas.<br>
+4.3. Describe paso a paso los procesos, así como pantallas, botones, cuadros de texto, etc., pero también se muestra el código de cada rutina, pantalla, botón, etc. es decir, se muestra lo que hay detrás de la interfaz del usuario.<br>
+Logotipo de la organización.<br>
+· Nombre oficial de la organización.<br>
+· Denominación y extensión. De corresponder a una unidad en particular debe anotarse el nombre de la misma.<br>
+· Lugar y fecha de elaboración.<br>
+· Número de revisión (en su caso).<br>
+· Unidades responsables de su elaboración, revisión y/o autorización.<br>
+· Clave de la forma. En primer término, las siglas de la organización, en segundo lugar las siglas de la unidad administrativa donde se utiliza la forma y, por último, el número de la forma. Entre las siglas y el número debe colocarse un guion o diagonal.<br>
+B) ÍNDICE O CONTENIDO:<br>
+Relación de los capítulos y páginas correspondientes que forman parte del documento.<br>
+C) PRÒLOGO Y/O INTRODUCCIÓN:<br>
+Exposición sobre el documento, su contenido, objeto, áreas de aplicación e importancia de su revisión y actualización. Puede incluir un mensaje de la máxima autoridad de las áreas comprendidas en el manual.<br>
+D) OBJETIVOS DE LOS PROCEDIMIENTOS:<br>
+Explicación del propósito que se pretende cumplir con los procedimientos.<br>
+Los objetivos son uniformar y controlar el cumplimiento de las rutinas de trabajo y evitar su alteración arbitraria; simplificar la responsabilidad por fallas o errores; facilitar las labores de auditoria; facilitar las labores de auditoria, la evaluación del control interno y su vigilancia; que tanto los empleados como sus jefes conozcan si el trabajo se está realizando adecuadamente; reducir los costos al aumentar la eficiencia general, además de otras ventajas adicionales.<br>
+E) AREAS DE APLICACIÓN Y/O ALCANCE DE LOS PROCEDIMIENTOS:<br>
+Esfera de acción que cubren los procedimientos.<br>
+Dentro de la administración pública federal los procedimientos han sido clasificados, atendiendo al ámbito de aplicación y a sus alcances, en: procedimientos macro administrativos y procedimientos meso administrativos o sectoriales.<br>
+F) RESPONSABLES:<br>
+Unidades administrativas y/o puestos que intervienen en los procedimientos en cualquiera de sus fases G) NORMAS DE OPERACIÓN:<br>
+En esta sección se incluyen los criterios o lineamientos generales de acción que se determinan en forma explícita para facilitar la cobertura de responsabilidad de las distintas instancias que participaban en los procedimientos.<br>
+Además deberán contemplarse todas las normas de operación que precisan las situaciones alterativas que pudiesen presentarse en la operación de los procedimientos. A continuación se mencionan algunos lineamientos que deben considerarse en su planteamiento:<br>
+· Se definirán perfectamente las políticas y/o normas que circunscriben el marco general de actuación del personal, a efecto de que esté no incurra en fallas.<br>
+· Los lineamientos se elaboran clara y concisamente, a fin de que sean comprendidos incluso por personas no familiarizadas con los aspectos administrativos o con el procedimiento mismo.
+· Deberán ser lo suficientemente explícitas para evitar la continua consulta a los niveles jerárquicos superiores.<br>
+H) CONCEPTO (S):<br>
+Palabras o términos de carácter técnico que se emplean en el procedimiento, las cuales, por su significado o grado de especialización requieren de mayor información o ampliación de su significado, para hacer más accesible al usuario la consulta del manual.<br>
+I) PROCEDIMIENTO:<br>
+(descripción de las operaciones). Presentación por escrito, en forma narrativa y secuencial, de cada una de las operaciones que se realizan en un procedimiento, explicando en qué consisten, cuándo, cómo, dónde, con qué, y cuánto tiempo se hacen, señalando los responsables de llevarlas a cabo. Cuando la descripción del procedimiento es general, y por lo mismo comprende varias áreas, debe anotarse la unidad administrativa que tiene a su cargo cada operación. Si se trata de una descripción detallada dentro de una unidad administrativa, tiene que indicarse el puesto responsable de cada operación. Es conveniente codificar las operaciones para simplificar su comprensión e identificación, aun en los casos de varias opciones en una misma operación.<br>
+J) FORMULARIO DE IMPRESOS:<br>
+Formas impresas que se utilizan en un procedimiento, las cuales se intercalan dentro del mismo o se adjuntan como apéndices. En la descripción de las operaciones que impliquen su uso, debe hacerse referencia específica de éstas, empleando para ello números indicadores que permitan asociarlas en forma concreta. También se pueden adicionar instructivos para su llenado.<br>
+K) DIAGRAMAS DE FLUJO:<br>
+Representación gráfica de la sucesión en que se realizan las operaciones de un procedimiento y/o el recorrido de formas o materiales, en donde se muestran las unidades administrativas (procedimiento general), o los puestos que intervienen (procedimiento detallado), en cada operación descrita. Además, suelen hacer mención del equipo o recursos utilizados en cada caso. Los diagramas representados en forma sencilla y accesible en el manual, brinda una descripción clara de las operaciones, lo que facilita su comprensión. Para este efecto, es aconsejable el empleo de símbolos y/o gráficos simplificados.<br>
+L) GLOSARIO DE TÉRMINOS:<br>
+Lista de conceptos de carácter técnico relacionados con el contenido y técnicas de elaboración de los manuales de procedimientos, que sirven de apoyo para su uso o consulta. Procedimiento general para la elaboración de manuales administrativos.<br>
+DISEÑO DEL PROYECTO:<br>
+La tarea de preparar manuales administrativos requiere de mucha precisión, toda vez que los datos tienen que asentarse con la mayor exactitud posible para no generar confusión en la interpretación de su contenido por parte de quien los consulta. Es por ello que se debe poner mucha atención en todas y cada una de sus etapas de integración, delineando un proyecto en el que se consiguen todos los requerimientos, fases y procedimientos que fundamentan la ejecución del trabajo.<br>
+A) RESPONSABLES:<br>
+Para iniciar los trabajos que conducen a la integración de un manual, es indispensable prever que no queda diluida la responsabilidad de la conducción de las acciones en diversas personas, sino que debe designarse a un coordinador, auxiliado por un equipo técnico, al que se le debe encomendar la conducción del proyecto en sus fases de diseño, implantación y actualización. De esta manera se logra homogeneidad en el contenido y presentación de la información.<br>
+Por lo que respecta a las características del equipo técnico, es conveniente que sea personal con un buen manejo de las relaciones humanas y que conozca a la organización en lo que concierne a sus objetivos, estructura, funciones y personal. Para este tipo de trabajo, una organización puede nombrar a la persona que tenga los conocimientos y la experiencia necesarios para llevarlo a cabo. Por la naturaleza de sus funciones puede encargarlo al titular de la unidad de mejoramiento administrativo (en caso de contar con este mecanismo). Asimismo, puede contratar los servicios de consultores externos.<br>
+B) DELIMITACIÓN DEL UNIVERSO DE ESTUDIO:<br>
+Los responsables de efectuar los manuales administrativos de una organización tienen que definir y delimitar su universo de trabajo para estar en posibilidad de actuar en él; para ello, deben realizar.<br>
+ESTUDIO PRELIMINAR:<br>
+Este paso es indispensable para conocer en forma global las funciones y actividades que se realizan en el área o áreas donde se va a actuar. Con base en él se puede definir la estrategia global para el levantamiento de información, identificando las fuentes de la misma, actividades por realizar, magnitud y alcances del proyecto, instrumentos requeridos para el trabajo y en general, prever las acciones y estimar los recursos necesarios para efectuar el estudio.<br>
+CONCLUSIÓN: <br>
+El manual técnico es el manual que utiliza el programador, este documento contiene toda la información sobre los recursos utilizados por el proyecto, llevan una descripción muy bien detallada sobre las características físicas y técnicas de cada elemento.<br><br><br>
+
+
+1.1.4.2.Elaboración de Manual de Usuario:<br>
+MANUAL DE USUARIO Importancia Del Manual De Usuario El Manual de Usuario facilita el conocimiento de:<br>
+Los documentos a los que se pueden dar entrada por computadora.
+Los formatos de los documentos.
+Las operaciones que utiliza de entrada y salida de los datos.
+El orden del tratamiento de la computadora con los datos introducidos.
+El momento en que se debe solicitar una operación deseada. Los resultados de las operaciones realizadas a partir de los datos introducidos.<br>
+Al elaborar el Manual de Usuario, hay que tener en cuenta a quién va dirigido es decir, el manual puede ser manejado desde el director de la empresa hasta el introductor de datos. Por consiguiente, debe redactarse de forma clara y sencilla para que lo entienda cualquier tipo de usuario.<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/22.jpg" width="60" height="60"><br> Diagrama general del sistema:<br>
+Muestra en forma condensada el flujo general de la información y de las actividades que se realizan en el sistema. Proporciona una visión general del sistema. Representar los diagramas utilizando para ello diagramas de bloques.<br>
+Diagrama particular detallado:<br>
+Presentar gráficamente todos los pasos que se efectúen dentro del departamento usuario a quien está dirigido este manual. Deben especificarse los archivos de entrada, salida, los resultados, revisiones y procesos manuales.<br>
+Explicación Genérica De Las Fases Del Sistema:<br>
+En este punto se explica en forma específica y detallada todas las operaciones que aparecen representadas en forma gráfica en el diagrama particular. Se analizan cada una de las fases señalando:<br>
+El proceso principal que se desarrolla.<br>
+La entrada de la información.<br>
+La obtención de un resultado parcial.<br>
+El envío de información a otra dependencia.<br>
+Instalación Del Sistema:<br>
+La instalación del sistema proporciona detalles completos sobre la forma de instalar el sistema en un ambiente particular.<br>
+Iniciación Al Uso Del Sistema:<br>
+En este punto se explica cómo iniciarse en el sistema y cómo se pueden utilizar sus cualidades comunes. Esta documentación debe decir al usuario cómo salir de un problema cuando las cosas funcionan mal.<br>
+Manual De Referencia:<br>
+Es el documento definitivo de cara al usuario y debe ser completo. Describe con detalle las cualidades del sistema y su uso, los informes de error generados y las situaciones en que surgen esos errores. Dependiendo del sistema, los documentos al usuario se pueden proporcionar por separado o reunidos en varios volúmenes. Los sistemas de ayuda en línea evitan que el usuario pierda tiempo en consultas manuales.<br>
+Caducidad De Documento Fuente Y Destino Final:<br>
+Como el usuario trabajará con documentos fuentes, éstos podrán tener un período de retención y un destino especificado.<br>
+CONCLUSION:<br>
+Este manual es el que utiliza el usuario, el cliente es el que utiliza y puede ver todos los procesos.<br>
+</p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Instalación del Sistema</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p>Procedimiento de instalación del sistema operativo<br><br>
+1.	Asegúrese de que ha completado todos los requisitos que se detallan en los Requisitos de la instalación.<br>
+2.	Apague y vuelva a encender la estación de trabajo. <br>
+Empieza el proceso POST del BIOS. <br>
+3.	Pulse F8 cuando aparezca el indicador Press F8 for BBS POPUP (Pulse F8 para BBS POPUP) en la pantalla BIOS POST (POST del BIOS) (véase la Figura 5–1). <br>
+El menú BBS POPUP le permite seleccionar un dispositivo de inicio. <br>
+Figura 5–1 Ejemplo de indicador F8 BBS POPUP<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/30.gif" width="110" height="60"><br> 4.	Cuando se ha completado el POST del BIOS, aparece el menú Boot Device (Dispositivo de inicio) (véase la Figura 5–2). Ahora puede insertar el CD de medios de Windows en la unidad de DVD del servidor. <br>
+Figura 5–2 Ejemplo del menú del dispositivo de inicio<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/31.gif" width="70" height="60"><br> 5.	Seleccione la unidad de DVD/CD-ROM o la imagen del CD desde el menú del dispositivo de inicio y pulse Intro. <br>
+Si aparece el mensaje Press any key to boot from CD (Pulse cualquier tecla para iniciar el sistema desde el CD), pulse cualquier letra. <br>
+Se iniciará el asistente de instalación de Windows. <br>
+6.	Siga las indicaciones del asistente hasta que aparezca la página sobre el tipo de instalación (véase la Figura 5–3), y seleccione Custom (advanced) (Personalizada - avanzada). <br>
+Figura 5–3 Página de selección del tipo de instalación<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/32.gif" width="73" height="72"><br> 7.	Cuando se le pregunte dónde quiere instalar el sistema operativo Windows, haga clic en la opción Load Driver (Cargar controlador) tal como se muestra en la Figura 5–4. <br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/33.gif" width="69" height="80"> <br>Figura 5–4 Ejemplo de la página que le pregunta dónde se debe instalar Windows<br>
+
+
+Aparece la página de carga del controlador. <br>
+8.	En la página de carga del controlador (véase la Figura 5–5), haga clic en OK. <br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/34.gif" width="69" height="80"> <br>Asegúrese de que la estación de trabajo pueda acceder a los controladores de almacenamiento masivo desde los medios de controladores de almacenamiento masivo que ha creado (disquete, disco USB flash o CD/DVD). <br>
+Figura 5–5 Explorar los medios de controladores<br>
+
+
+9.	Haga clic sobre el botón Browse (Explorar) y navegue hasta la carpeta de los medios de controladores (véase la Figura 5–6). <br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/35.gif" width="70" height="81"> <br>Figura 5–6 Ejemplo de la pantalla Browse for Folder (Buscar carpeta) <br>
+
+
+10.	Seleccione el controlador de almacenamiento masivo adecuado (la versión de 32 o 64 bits) y haga clic en OK: <br>
+o	Controlador Intel ICH10 SATA AHCI para SATA. <br>
+o	Controlador Intel ICH10 SATA RAID para RAID. <br>
+o	Adaptador LSI, serie SAS 3000, 4 puertos con 1064E para HBA de Sun StorageTek opcional. <br>
+Aparece la página de selección de controladores con el controlador seleccionado (véase la Figura 5–7). <br>
+11.	Confirme que se ha seleccionado la unidad correcta y haga clic en Next (Siguiente). <br>
+Figura 5–7 Ejemplo de la página del controlador seleccionado<br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/36.gif" width="69" height="79"> <br>Aparece la página en la que se pregunta dónde desea instalar el sistema operativo Windows. <br>
+12.	En la página en la que se pregunta dónde desea instalar Windows (véase la Figura 5–8), elija una de las opciones siguientes: <br>
+<img src="../tercer parcial/aplicaciones/app10/imagenes/37.gif" width="69" height="81"> <br>o	Si no desea reemplazar la información de partición predeterminada de Windows, haga clic en Next (Siguiente) y vaya al Paso 14. <br>
+o	En el caso de que sí desee reemplazar la información de partición predeterminada de Windows, haga clic en la opción Driver Options (advanced) (Opciones de controlador - avanzadas) y continúe con el siguiente paso. <br>
+
+13.	En la página en la que se pregunta dónde desea instalar Windows con opciones de controladores (véase la Figura 5–8), haga lo siguiente: <br>
+Figura 5–8 Alteración de la información de partición<br>
+
+
+a.	Haga clic en Delete (Borrar) para borrar la partición existente. <br>
+b.	Haga clic en New (Nueva) para crear la partición nueva. <br>
+c.	Cambie las opciones de tamaño en función de sus necesidades y haga clic en Apply (Aplicar). <br>
+d.	Haga clic en Next (Siguiente). <br>
+14.	Empieza la instalación de Windows. <br>
+El sistema se reiniciará varias veces durante el proceso de instalación. <br>
+15.	Cuando la instalación de Windows se haya completado, Windows se iniciará y le indicará que cambie la contraseña de usuario. Haga clic en OK y configure la cuenta de inicio de sesión del usuario. <br>
+Cuando haya creado la cuenta inicial del usuario, aparecerá el escritorio de Windows Vista Ultimate. <br>
+16.	Cuando haya acabado, vaya al Capítulo 7Actualización de los controladores y el software críticos. <br>
+
+</p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Quinta y sexta imagen de doble sustitución.</h1>
+ </div>
+  <div data-role="content" align="justify">
+ <div>
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image68','','../tercer parcial/aplicaciones/app10/imagenes/16.jpg',1)"><img src="../tercer parcial/aplicaciones/app10/imagenes/14.jpg" width="90" height="60" id="Image68"></a><br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image69','','../tercer parcial/aplicaciones/app10/imagenes/11.jpg',1)"><img src="../tercer parcial/aplicaciones/app10/imagenes/4.jpg" width="84" height="61" id="Image69"></a></p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Segundo visor.</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p><!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/7.jpg" alt="jquery slider" title="7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/11.jpg" alt="11" title="11" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>7</span></a>
+		<a href="#" title="11"><span><img src="data1/tooltips/11.jpg" alt="11"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --></p>
+    <p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Enlaces</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+    <p>
+ <div style="width:99%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://rlbisbe.net/tag/visual-studio-2010/" target="_self" data-role="button">
+    <h2>visual studio</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+ <div style="width:99%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n" target="_self" data-role="button">
+    <h2>programación</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+ <div style="width:99%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://www.lifewire.com/microsoft-access-2013-fundamentals-1019505?utm_term=microsoft+access+window&utm_content=p1-main-1-title&utm_medium=sem&utm_source=google_s&utm_campaign=adid-68de4b61-8869-4a52-8c6b-3694955caa11-0-ab_gsb_ocode-5917&ad=semD&an=google_s&am=broad&q=microsoft+access+window&o=5917&qsrc=999&l=sem&askid=68de4b61-8869-4a52-8c6b-3694955caa11-0-ab_gsb" target="_self" data-role="button">
+    <h2>introducción a<br>Access</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+ </div></p>
+    Datos del desarrollador:<br>
+    Ronaldo Vicuña Flores<br>
+    Grupo:4"H"<br>
+    Semestre:4<br>
+    Submodulo:DAM Diseña Aplicaciones Moviles<br>
+    Nombre del Docente:Lic.Jose Antonio Gómez Hernández<br><p><br>
+</p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><img src="res/android/dsaupo.png" width="46" height="46">
+</div>
+   <h4>Aplicación 10,RVF</h4>
+   
+  </div>
+</div>
+</body>
+</html>
